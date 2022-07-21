@@ -1,0 +1,271 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly for App 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+>
+  <View
+    style={
+      Object {
+        "marginTop": 30,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "marginTop": 32,
+          "paddingHorizontal": 24,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#000",
+            "fontSize": 18,
+            "fontWeight": "600",
+          }
+        }
+      >
+        Weight:
+      </Text>
+      <TextInput
+        keyboardType="decimal-pad"
+        onChangeText={[Function]}
+        style={
+          Object {
+            "borderColor": "#444",
+            "borderRadius": 3,
+            "borderWidth": 1,
+            "color": "#444",
+            "fontSize": 18,
+            "fontWeight": "400",
+            "marginHorizontal": 10,
+            "padding": 8,
+            "width": "50%",
+          }
+        }
+        value=""
+      />
+      <Text
+        style={
+          Object {
+            "color": "#000",
+            "fontSize": 18,
+            "fontWeight": "600",
+          }
+        }
+      >
+        lbs
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "marginTop": 32,
+          "paddingHorizontal": 24,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#000",
+            "fontSize": 18,
+            "fontWeight": "600",
+          }
+        }
+      >
+        Height:
+      </Text>
+      <TextInput
+        keyboardType="decimal-pad"
+        onChangeText={[Function]}
+        style={
+          Object {
+            "borderColor": "#444",
+            "borderRadius": 3,
+            "borderWidth": 1,
+            "color": "#444",
+            "fontSize": 18,
+            "fontWeight": "400",
+            "marginHorizontal": 10,
+            "padding": 8,
+            "width": "50%",
+          }
+        }
+        value=""
+      />
+      <Text
+        style={
+          Object {
+            "color": "#000",
+            "fontSize": 18,
+            "fontWeight": "600",
+          }
+        }
+      >
+        ft
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "marginTop": 32,
+          "paddingHorizontal": 24,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#000",
+            "fontSize": 18,
+            "fontWeight": "600",
+          }
+        }
+      >
+        Units: 
+      </Text>
+      <View
+        accessibilityRole="checkbox"
+        accessibilityState={
+          Object {
+            "checked": true,
+            "disabled": true,
+          }
+        }
+        accessibilityValue={
+          Object {
+            "text": "on",
+          }
+        }
+        accessible={true}
+        pointerEvents="none"
+      >
+        <RNCCheckbox
+          boxType="square"
+          forwardedRef={null}
+          onValueChange={[Function]}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "height": 32,
+                "width": 32,
+              },
+              Object {
+                "marginLeft": 10,
+                "marginRight": 5,
+              },
+            ]
+          }
+          value={true}
+        />
+      </View>
+      <Text
+        style={
+          Object {
+            "color": "#000",
+            "fontSize": 18,
+            "fontWeight": "600",
+          }
+        }
+      >
+        imperial
+      </Text>
+      <View
+        accessibilityRole="checkbox"
+        accessibilityState={
+          Object {
+            "checked": false,
+            "disabled": false,
+          }
+        }
+        accessibilityValue={
+          Object {
+            "text": "off",
+          }
+        }
+        accessible={true}
+        pointerEvents="auto"
+      >
+        <RNCCheckbox
+          boxType="square"
+          forwardedRef={null}
+          onValueChange={[Function]}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "height": 32,
+                "width": 32,
+              },
+              Object {
+                "marginLeft": 10,
+                "marginRight": 5,
+              },
+            ]
+          }
+          value={false}
+        />
+      </View>
+      <Text
+        style={
+          Object {
+            "color": "#000",
+            "fontSize": 18,
+            "fontWeight": "600",
+          }
+        }
+      >
+        metric
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "borderColor": "#444",
+          "borderRadius": 3,
+          "borderWidth": 1,
+          "justifyContent": "center",
+          "marginHorizontal": 50,
+          "marginTop": 30,
+          "opacity": 1,
+          "padding": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#000",
+            "fontSize": 18,
+            "fontWeight": "600",
+          }
+        }
+      >
+        Save
+      </Text>
+    </View>
+  </View>
+</RCTSafeAreaView>
+`;

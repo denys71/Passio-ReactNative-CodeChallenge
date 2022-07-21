@@ -22,20 +22,8 @@ import CheckBox from '@react-native-community/checkbox';
 
 import {Colors} from 'react-native/Libraries/NewAppScreen';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-
-const LBS2KG = 0.453592;
-const FT2M = 0.3048;
-const KEY = '@data';
-
-const calc = (value: number, isImperial: boolean, div: number) => {
-  let newValue;
-  if (isImperial) {
-    newValue = value / div;
-  } else {
-    newValue = value * div;
-  }
-  return newValue.toString();
-};
+import { calc } from './src/calc';
+import { FT2M, KEY, LBS2KG } from './src/const';
 
 enum ActionKind {
   WEIGHT_CHANGE = 'weight-change',
@@ -169,7 +157,7 @@ const App = () => {
         <View style={styles.SectionContainer}>
           <Text style={styles.Label}>Units: </Text>
           <CheckBox
-            // disabled={state.isImperial}
+            disabled={state.isImperial}
             value={state.isImperial}
             onValueChange={newValue =>
               dispatch({
